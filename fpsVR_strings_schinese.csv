@@ -1,0 +1,519 @@
+﻿key,field,english,schinese
+notsuported_wirelesshmd,text,Not supported for Wireless VR Headset.,无线 VR 头显不支持此功能。
+notsuported_steamvrlinux,text,Not supported. SteamVR has limited functionality on Linux.,不支持。SteamVR 在 Linux 上功能受限。
+notsuported_proton,text,Not supported when running under Proton.,在 Proton 下运行时不支持。
+notsuported_rr,text,Changing screen frequency on the fly is not supported under the current conditions. SteamVR restart is required to apply.,当前条件下不支持实时更改屏幕刷新率，需要重启 SteamVR 才能生效。
+forcedisablechap,text,Force Disable at Launch (for troubleshooting only),启动时强制禁用（仅用于排查问题）
+UseOculusAPIStats,text,Try Use Oculus API for stats (Quest Link),尝试使用 Oculus API 获取统计数据（Quest Link）
+UseOculusAPIStats_desc,text,"<span style=""font-size: 20px; color: DarkGray"">Disable this option if you think the statistics are incorrect!</span>","<span style=""font-size: 20px; color: DarkGray"">如果你认为统计数据不准确，请关闭此选项！</span>"
+VR Driver,text,VR Driver,VR 驱动
+FPS On/Off,text,FPS On/Off,FPS 开/关
+Start,text,Start,开头
+Next,text,Next,下一个
+End,text,End,末尾
+Zoom Out,text,Zoom Out,缩小
+Zoom In,text,Zoom In,放大
+frametime_raw,text,Frametimes<br>(All Data),帧时间<br>（全部数据）
+usage_raw,text,GPU/CPU Usage<br>(All Data),GPU/CPU 占用<br>（全部数据）
+temp_raw,text,Temperatures,温度
+Events (Dashboard opened or other),text,"Events (dashboard open,...)",事件（打开仪表盘等）
+no_data,text,No data,无数据
+showcentermarkerifdashboardopened2,text,"<span style=""font-size: 20px; color: DarkGray"">The marker will only be displayed when you open the SteamVR dashboard</span>","<span style=""font-size: 20px; color: DarkGray"">仅在打开 SteamVR 仪表盘时显示标记</span>"
+showcentermarkerifdashboardopened,text,Show Сenter Marker if Dashboard is Opened,打开仪表盘时显示中心标记
+showcentermarkerifcontrolleroff2,text,"<span style=""font-size: 20px; color: DarkGray"">By default, the marker is displayed if at least one VR controller is enabled and has a role</span>","<span style=""font-size: 20px; color: DarkGray"">默认情况下，至少有一个 VR 控制器已开启并分配了角色时才显示标记</span>"
+showcentermarkerifcontrolleroff,text,Show Сenter Marker if VR Controllers are not Used,未使用 VR 控制器时显示中心标记
+showendsessionstat,text,Show the final statistics of the game session in the overlay at the end,游戏会话结束时在悬浮窗中显示本次会话的统计总结
+Loop,text,Loop,循环
+Once,text,Once,一次
+soundtwist,text,"Play sound file ""soundbeepbeep.wav"" for Arrows at Maximum Length","箭头达到最大长度时播放声音文件 ""soundbeepbeep.wav"""
+session_desc2,text,"""Busiest Core"" - Distribution of the value for maximum loaded core/thread",“最忙核心”——负载最高的核心/线程的占用分布
+GPU Usage Distribution,text,GPU Usage Distribution,GPU 占用分布
+VRAM Usage Distribution,text,VRAM Usage Distribution,显存占用分布
+CPU Usage Distribution,text,CPU Usage Distribution,CPU 占用分布
+Max.CPU/Thread Usage..,text,Busiest Core,最忙核心
+Frametimes,text,Frametimes<br>(Distribution),帧时间<br>（分布）
+GPU/CPU Usage,text,GPU/CPU Usage<br>(Distribution),GPU/CPU 占用<br>（分布）
+longer2min,text,Last 10 sessions<br>(lasting more than 2 min),最近 10 次会话<br>（时长超过 2 分钟）
+ResWarning,text,"Attention! You have ""Advanced Supersampling Filtering"" enabled in SteamVR settings. This will prevent to detect resolutions higher: ",注意！你在 SteamVR 设置中启用了“高级超采样过滤”，这会导致无法检测到更高的分辨率：
+ASW_notavail,text,ASW settings are not available.,ASW 设置不可用。
+History Viewer Disabled. See Settings.,text,History Viewer Disabled. See Settings.,历史查看器已禁用，请查看设置。
+History is Empty.,text,History is Empty.,历史记录为空。
+History Viewer in VR (build-in version),text,History Viewer in VR (build-in version),VR 内历史查看器（内置版）
+History Viewer (Desktop Version),text,History Viewer (Desktop Version),历史查看器（桌面版）
+History Viewer,text,History Viewer,历史查看器
+GPU Frametime Distribution:,text,GPU Frametime Distribution:,GPU 帧时间分布：
+th percentile,text,th percentile, 百分位
+CPU Frametime Distribution:,text,CPU Frametime Distribution:,CPU 帧时间分布：
+Frametime less ,text,Less ,小于 
+Left Controller,text,Left Controller,左控制器
+Right Controller,text,Right Controller,右控制器
+Peak VRAM Usage,text,Peak VRAM Usage,显存峰值占用
+Tavg ,text,Tavg ,Tavg 
+ Tmax ,text, Tmax , Tmax 
+SteamVR Resolution Settings (Max):,text,SteamVR Resolution Settings (Max):,SteamVR 分辨率设置（最大）：
+Global x Per-Application,text,Global x Per-Application,全局 x 单应用
+Per eye(Estimated),text,Per eye(Estimated),每只眼（估算）
+session_desc,text,"For Vive/VivePro1/Index headsets, frametime also includes part of the work performed by the VR compositor, fpsVR may not have this information for other headsets, so it may only include part of the work of the VR application.If the application manages to prepare frames within the time budget, this is not a guarantee of a stable frame rate and the absence of reprojected (synthtetic) frames, especially for wireless headsets.",对于 Vive/Vive Pro 1/Index 头显，帧时间还包含 VR 合成器的部分工作；其他头显 fpsVR 可能拿不到这部分信息，因此可能只包含 VR 应用自身的部分工作。即使应用能在时间预算内准备好帧，也不能保证帧率稳定、不出现重投影（合成）帧，无线头显尤其如此。
+session_shortdesc,text,Click on the grapth to get more details.,点击图表查看详情。
+notificationforbatteries,text,"Show notifications about batteries charge values in multiples of 10 (90%, 80%....10%)",电量每下降 10% 时显示通知（90%、80%……10%）
+TrackerRole_None,text,Disabled,已禁用
+TrackerRole_Handed,text,Held in Hand,手持
+TrackerRole_LeftFoot,text,Left Foot,左脚
+TrackerRole_RightFoot,text,Right Foot,右脚
+TrackerRole_LeftShoulder,text,Left Shoulder,左肩
+TrackerRole_RightShoulder,text,Right Shoulder,右肩
+TrackerRole_LeftElbow,text,Left Elbow,左肘
+TrackerRole_RightElbow,text,Right Elbow,右肘
+TrackerRole_LeftKnee,text,Left Knee,左膝
+TrackerRole_RightKnee,text,Right Knee,右膝
+TrackerRole_LeftWrist,text,Left Wrist,左手腕
+TrackerRole_RightWrist,text,Right Wrist,右手腕
+TrackerRole_LeftAnkle,text,Left Ankle,左脚踝
+TrackerRole_RightAnkle,text,Right Ankle,右脚踝
+TrackerRole_Waist,text,Waist,腰部
+TrackerRole_Chest,text,Chest,胸部
+TrackerRole_Camera,text,Camera,摄像机
+TrackerRole_Keyboard,text,Keyboard,键盘
+Any Hand,text,Any Hand,任意手
+Right Hand,text,Right Hand,右手
+Left Hand,text,Left Hand,左手
+OptOut,text,OptOut,OptOut
+Treadmill,text,Treadmill,跑步机
+Stylus,text,Stylus,触控笔
+TrackingReference,text,Base Station,基站
+DisplayRedirect,text,DisplayRedirect,DisplayRedirect
+Role,text,Role,角色
+Model,text,Model,型号
+Battery,text,Battery,电量
+Devices,text,Devices,设备
+Headset,text,VR Headset,VR 头显
+Status,text,Status,状态
+CPUTemp6,text,Restart required!,需要重启！
+CPUTemp5,text,"Disabled by Default, press Reset Counter to Enable, read the warning.",默认禁用。点击“重置计数器”以启用，请先阅读警告。
+CPUTemp4,text,"The service failed to start the kernel-mode driver, most likely it was blocked by antivirus.",服务无法启动内核模式驱动，很可能被杀毒软件拦截了。
+CPUTemp3,text,Getting strange readings from the service: сcurrent CPU is not supported or the service needs to be reinstalled: run the fpsVR file integrity check.,服务返回的读数异常：当前 CPU 不受支持，或需要重新安装服务——请对 fpsVR 运行文件完整性检查。
+CPUTemp2,text,"Service is not running for an unknown reason, run a file integrity check on fpsVR or reinstall the application.",服务因未知原因未运行，请对 fpsVR 运行文件完整性检查或重新安装本程序。
+CPUTemp1,text,"Counter is 2 or more, attempts to start the service are stopped.",计数达到 2 次或以上，已停止尝试启动服务。
+CPUTemp0,text,"It's okay, fpsVR gets temperature data.",一切正常，fpsVR 正在获取温度数据。
+CPUTempStatus,text,CPU polling service status,CPU 轮询服务状态
+KMDCounterDesc,text,"Count of failed attempts to start the kernel-mode driver: $<br><br>WARNING!<br>The CPU polling service uses the kernel-mode driver to get information about the CPU temperature. fpsVR uses a fairly common driver: ""WingRing0"". Some anti-viruses may block it as not safe. In this case you will see an antivirus warning about the file ""hardwareprovider.sys"".<br>fpsVR fixes the existing vulnerability in this driver by setting appropriate access rights. But some antiviruses intercept the driver launch calls and this happens before the permissions are changed and block its work. <br>If there are 2 or more such blockings in a row, fpsVR will stop attempts to start this driver and the CPU polling service. You can try to start CPU polling again by resetting the counter (restart required).",启动内核模式驱动失败的次数：$<br><br>警告！<br>CPU 轮询服务通过内核模式驱动获取 CPU 温度信息。fpsVR 使用的是一个相当常见的驱动：“WinRing0”。部分杀毒软件可能会将其视为不安全而拦截，此时你会看到关于文件“hardwareprovider.sys”的杀毒警告。<br>fpsVR 通过设置相应的访问权限修复了该驱动已知的漏洞，但有些杀毒软件会在权限修改之前拦截驱动的启动调用并阻止其运行。<br>如果连续被拦截 2 次或以上，fpsVR 将停止尝试启动该驱动和 CPU 轮询服务。你可以重置计数器后再次尝试启动 CPU 轮询（需要重启）。
+ResetKMDCounter,text,Reset Сounter,重置计数器
+cpumonitoring,text,CPU Temperature Monitoring Status,CPU 温度监控状态
+asw_issue,text,Unable to manage ASW on your system due to file access issues in Oculus Software folders,由于 Oculus 软件文件夹存在文件访问问题，无法在你的系统上管理 ASW
+help_settings_button,text,Where to find the in-game overlay and settings?,游戏内悬浮窗和设置在哪里？
+help_settings_text,text,"<b>Where can I find the in-game overlay?</b> By default overlay is attached to the bottom of the left controller. If you have been using fpsVR for a long time and lost the overlay, then you may have enabled one of the settings that hides the overlay, check the fpsVR settings.<br><br><b>Where can I find the fpsVR settings?</b> If you are reading this, then you are already looking at the fpsVR settings overlay. The fpsVR settings overlay is built into the SteamVR dashboard. In order to open it in VR when you need it, just open the SteamVR dashboard, find a small button on the bottom left that says fpsVR. Clicking on it will take you to the fpsVR settings. There are two ways to open a copy of this overlay on your desktop:<br> • From the fpsVR desktop window menu, click 'Settings'. If the window is closed, you can double click on the fpsVR icon in the Windows tray (at right bottom corner of desktop, the icon may be hidden, you may need to click the left arrow there to show hidden icons) to open fpsVR desktop window.<br> • The second way is to right-click on the fpsVR icon in the Windows tray (at right bottom corner of desktop) and call the settings through the icon menu.",<b>游戏内悬浮窗在哪里？</b>默认情况下，悬浮窗附着在左控制器的底部。如果你已经用了 fpsVR 很久却找不到悬浮窗，可能是开启了某个会隐藏悬浮窗的设置，请检查 fpsVR 设置。<br><br><b>fpsVR 设置在哪里？</b>如果你正在阅读这段文字，说明你已经在看 fpsVR 的设置悬浮窗了。fpsVR 设置悬浮窗内置于 SteamVR 仪表盘中。需要在 VR 中打开时，只要打开 SteamVR 仪表盘，在左下角找到写着 fpsVR 的小按钮，点击即可进入 fpsVR 设置。在桌面上打开该悬浮窗副本有两种方法：<br> • 在 fpsVR 桌面窗口的菜单中点击“设置”。如果窗口已关闭，可以双击 Windows 托盘（桌面右下角，图标可能被隐藏，需要点击那里的箭头显示隐藏的图标）中的 fpsVR 图标打开桌面窗口。<br> • 第二种方法是右键点击 Windows 托盘（桌面右下角）中的 fpsVR 图标，通过图标菜单打开设置。
+overlay_tutorial_button,text,In-Game Overlay Help,游戏内悬浮窗帮助
+help_oculus_text,text,"Since version 1.24, fpsVR uses the Oculus API to get useful information to display in the in-game overlay when the headset is connected via cable or Airlink (but not when using VD or ALVR). But this does not mean that the fpsVR overlay will be displayed in VR games and applications that uses the Oculus API.<br><br>The Oculus API does not support overlays from background apps, and likely never will.<br>It doesn't matter from which store to launch the VR game or application. There are games on Steam that prefer to use the Oculus API.<br><br>To determine if a VR game or app is not using SteamVR, simply try opening the SteamVR dashboard, if you can't open it in VR it means that SteamVR is currently running in the background for the Oculus Software system and is not an active VR app. In this case, it is better to close SteamVR so as not to take up system resources for nothing.",从 1.24 版开始，当头显通过有线或 Air Link 连接时（使用 VD 或 ALVR 时除外），fpsVR 会通过 Oculus API 获取有用的信息并显示在游戏内悬浮窗中。但这并不意味着 fpsVR 悬浮窗能在使用 Oculus API 的 VR 游戏和应用中显示。<br><br>Oculus API 不支持来自后台应用的悬浮窗，而且很可能永远不会支持。<br>无论你从哪个商店启动 VR 游戏或应用都一样。Steam 上也有一些游戏优先使用 Oculus API。<br><br>要判断一个 VR 游戏或应用是否没有使用 SteamVR，只需尝试打开 SteamVR 仪表盘：如果在 VR 中打不开，说明 SteamVR 此时只是作为 Oculus 软件的后台运行，并不是当前活动的 VR 应用。这种情况下最好关闭 SteamVR，以免白白占用系统资源。
+help_supported_text,text,"fpsVR - utility for SteamVR for keeping track of FPS, frame time and other performance metrics in the in-game overlay.<br><br>fpsVR works with any headset supported by SteamVR.<br><br>fpsVR supports any VR games/applications that interact with SteamVR via the following APIs: OpenVR, OpenXR.<br>Please note that in order to display the fpsVR overlay in VR games/applications using OpenXR, there is an important condition - the current OpenXR runtime must be set to SteamVR (and not to your headset software, such as Mixed Reality Portal or Oculus Software, you can switch the OpenXR runtime in the SteamVR settings)<br><br>The Oculus API is only used by fpsVR to get data useful for display in the in-game overlay. The Oculus API does not support overlays from background applications. Therefore, the fpsVR overlay cannot be displayed in VR games and applications, which uses the Oculus API.",fpsVR——一款 SteamVR 工具，用于在游戏内悬浮窗中监控 FPS、帧时间及其他性能指标。<br><br>fpsVR 支持所有 SteamVR 支持的头显。<br><br>fpsVR 支持通过以下 API 与 SteamVR 交互的任何 VR 游戏/应用：OpenVR、OpenXR。<br>请注意，要在使用 OpenXR 的 VR 游戏/应用中显示 fpsVR 悬浮窗，有一个重要条件——当前的 OpenXR 运行时必须设为 SteamVR（而不是你的头显软件，例如混合现实门户或 Oculus 软件；你可以在 SteamVR 设置中切换 OpenXR 运行时）。<br><br>fpsVR 仅使用 Oculus API 获取可在游戏内悬浮窗中显示的数据。Oculus API 不支持来自后台应用的悬浮窗，因此 fpsVR 悬浮窗无法在使用 Oculus API 的 VR 游戏和应用中显示。
+help_oculus_button,text,Important Info for Oculus/Meta Users!,Oculus/Meta 用户重要提示！
+help_supported_button,text,"About fpsVR, Supported Headsets, Supported VR APIs",关于 fpsVR、支持的头显和 VR API
+reset_stats_shortcut,text,Enable Keyboard Shortcut for Reset Stats Button,启用“重置统计”按钮的键盘快捷键
+applyasw,text,Apply setting on startup fpsVR,fpsVR 启动时应用设置
+asws_0,text,Don't change ASW settings when fpsVR starts,fpsVR 启动时不更改 ASW 设置
+asw_4,text,Auto (Enabled),自动（已启用）
+asw_3,text,"Force Half Framerate, ASW Enabled",强制半帧率，启用 ASW
+asw_2,text,"Force Half Framerate, ASW Disabled",强制半帧率，禁用 ASW
+switchasw,text,Switch ASW mode,切换 ASW 模式
+aswstatus,text,Asynchronous Spacewarp (ASW) Current Status,异步空间扭曲（ASW）当前状态
+moreoculusstats,text,Link/AirLink: more stats for Meta/Oculus headsets in overlay (only in full version of overlay),Link/Air Link：在悬浮窗中显示 Meta/Oculus 头显的更多统计（仅完整版悬浮窗）
+Active,text,Active,活动
+Latency,text,Latency,延迟
+hider_i2,text,Time in seconds before the overlay disappears if the above conditions are not met,不满足上述条件时，悬浮窗消失前的等待时间（秒）
+hider_i1,text,Time in seconds before the overlay appears when the above condition is met,满足上述条件时，悬浮窗出现前的等待时间（秒）
+hider_s2,text,"Condition in frame rate to start displaying the overlay immediately (set as a percentage of headset screen rate), cannot be greater than the first condition",立即显示悬浮窗的帧率条件（以头显屏幕刷新率的百分比设置），不能大于第一个条件
+hider_s1,text,Condition in frame rate to start displaying the overlay (specified as a percentage of the frequency of the headset screens),开始显示悬浮窗的帧率条件（以头显屏幕刷新率的百分比设置）
+hider,text,Hide in-game overlay when VR game/app performance is good,VR 游戏/应用性能良好时隐藏游戏内悬浮窗
+hidersettings,text,Condition settings,条件设置
+nocolorformarker,text,"Do not use color from Chaperone for Center Marker:<br><span style=""font-size: 24px; color:DarkGray;"">To change the marker without cable tracking, you will need to restart fpsVR</span>","中心标记不使用 Chaperone 的颜色：<br><span style=""font-size: 24px; color:DarkGray;"">不启用线缆追踪时更改标记，需要重启 fpsVR</span>"
+opaqueforcordmarker,text,"Change the transparency of the marker depending on the twist of the cable:<br><span style=""font-size: 24px; color:DarkGray;"">The main setting for marker opaque also applies</span>","根据线缆缠绕程度改变标记的透明度：<br><span style=""font-size: 24px; color:DarkGray;"">主标记不透明度设置同样适用</span>"
+turns,text,turns,圈
+stopscreensaver,text,Interrupt the screensaver on startup and prevent it from starting again while fpsVR is running,启动时打断屏幕保护程序，并在 fpsVR 运行期间阻止其再次启动
+tempinF,text,Show temperatures in Fahrenheit,以华氏度显示温度
+dash_activated_shortcut,text,Emulate keyboard shortcut when opening SteamVR dashboard,打开 SteamVR 仪表盘时模拟键盘快捷键
+dash_deactivated_shortcut,text,Emulate keyboard shortcut when closing SteamVR dashboard,关闭 SteamVR 仪表盘时模拟键盘快捷键
+select_shortcut_desc,text,Select a keyboard shortcut to edit,选择要编辑的键盘快捷键
+change_shortcut_desc,text,"Press the desired keyboard shortcut. You will not be able to enter a keyboard shortcut here that is used by Windows. To do this, you need to manually edit the keystrokes_v2.json file located in the fpsVR root folder",请按下想要的键盘快捷键。这里无法输入被 Windows 占用的快捷键，如需设置，请手动编辑 fpsVR 根目录下的 keystrokes_v2.json 文件
+edit_cells,text,Edit,编辑
+save_cells,text,Save Changes,保存更改
+load_cells,text,Revert Сhanges,撤销更改
+cancel_edit,text,Stop Editing,停止编辑
+restore_defaults,text,Restore Defaults,恢复默认
+oculuswarning,text,The current VR game/app uses the Oculus API. SteamVR and fpsVR can be closed to avoid wasting GPU and CPU resources. fpsVR is designed to work with the OpenVR API (SteamVR).,当前 VR 游戏/应用使用的是 Oculus API。可以关闭 SteamVR 和 fpsVR，以免浪费 GPU 和 CPU 资源。fpsVR 是为 OpenVR API（SteamVR）设计的。
+custom_p_s,text,Custom fixed position,自定义固定位置
+custom_p_r,text,Custom position(attached to device),自定义位置（附着于设备）
+bring_overlay,text,Move the Overlay into Field of Vision,将悬浮窗移到视野内
+desc_seated_pos,text,"Here you can customize the fixed positions. These are the positions that are oriented on the sitting position of SteamVR, in order to make your own based on it. <br><br>If you don't see the overlay, go back, select one of the pre-made fixed positions (for SteamVR seated position) and start over, or click the button below to bring the overlay into your field of vision (This may help for games that do not use the SteamVR seated position).",你可以在这里自定义固定位置。这些位置以 SteamVR 坐姿位置为基准，你可以在其基础上制作自己的位置。<br><br>如果看不到悬浮窗，请返回并选择一个预设的固定位置（基于 SteamVR 坐姿位置）后重新开始，或点击下方按钮将悬浮窗移到视野内（对于不使用 SteamVR 坐姿位置的游戏可能有用）。
+save_pos,text,"Use the SteamVR laser pointer to change the position of the overlay. When you're done customizing the position of the overlay, save it to one of the slots for custom position:",用 SteamVR 激光指针调整悬浮窗的位置。调整完成后，将其保存到一个自定义位置槽中：
+desc_roomscale_pos,text,"You can use any position attached on the controller or headset in order to make your own based on it. If you don't see the overlay, go back and select one of the ready-made positions and start over.",你可以以任何附着在控制器或头显上的位置为基础制作自己的位置。如果看不到悬浮窗，请返回并选择一个预设位置后重新开始。
+force_seated,text,Force Enable Position for Seated Games/Apps ,对坐姿游戏/应用强制启用此位置 
+Customize,text,Customize,自定义
+Fadeout_Settings,text,Other settings...,其他设置……
+fullsessiontime,text,Show full VR session time instead of time in specific game/app,显示完整的 VR 会话时间，而不是单个游戏/应用的时间
+Fadeout_Desc2,text,"Try values between 0.4m - 0.7m, the appropriate value depends on your hand length and your preferences.<br>To turn off, set a value greater than the length of your arm, for example 1.5m.",可尝试 0.4 米到 0.7 米之间的值，合适的值取决于你的手臂长度和个人偏好。<br>如要关闭，请设为大于手臂长度的值，例如 1.5 米。
+Fadeout_Distance,text,Fadeout Distance,淡出距离
+Fadeout_Desc1,text,"To disable, set the value to 90 degrees. Default: 80 degrees.",如要禁用，请设为 90 度。默认：80 度。
+Fadeout_Angle,text,Fadeout Angle,淡出角度
+gpumoninterval,text,GPU Monitoring Interval,GPU 监控间隔
+dismonitoring,text,Disable Monitoring,禁用监控
+amdhotspot,text,Show HOTSPOT temperature instead of EDGE for AMD RVII/RX5XXX/RX6XXX GPU (Restart required),AMD RVII/RX5XXX/RX6XXX 显卡显示 HOTSPOT 温度而非 EDGE 温度（需要重启）
+label29,text,Send sessions data to fpsvr.net,向 fpsvr.net 发送会话数据
+label30,text,"<p style='text-indent: 50px;'>This feature is under development. By enabling the option below you will help developers to bring more stats to the fpsVR users, which will allow you to compare performance in VR games and apps with different supersampling settings, GPUs, CPUs, GPU drivers, and VR headsets.</p> <p style='text-indent: 50px;'>By enabling this option you are AGREEING to send sessions data to fpsvr.net. Most of statistics based on this data will be availble in the near future on www.fpsvr.net and and possibly will be available inside the fpsVR.</p><p style='text-indent: 50px;'> Sessions data does NOT include any identification data, personal data, hardware serial numbers that can identify you.</p><p style='text-indent: 50px;'> Sessions data does include: Headset/GPU/CPU models and characteristics, RAM size, GPU driver version, frametimes and fps stats, game/app name, session length, session start and end time, Windows and SteamVR versions.</p>",<p style='text-indent: 50px;'>此功能仍在开发中。启用下方选项可以帮助开发者为 fpsVR 用户提供更多统计数据，让你能比较不同超采样设置、GPU、CPU、显卡驱动和 VR 头显下 VR 游戏和应用的性能。</p> <p style='text-indent: 50px;'>启用此选项即表示你同意向 fpsvr.net 发送会话数据。基于这些数据的大部分统计将在不久后于 www.fpsvr.net 上线，也可能会在 fpsVR 内提供。</p><p style='text-indent: 50px;'>会话数据不包含任何可识别身份的数据、个人数据或能识别你的硬件序列号。</p><p style='text-indent: 50px;'>会话数据包含：头显/GPU/CPU 型号及参数、内存大小、显卡驱动版本、帧时间和 FPS 统计、游戏/应用名称、会话时长、会话开始和结束时间、Windows 和 SteamVR 版本。</p>
+Restart_с,text,Restart,重启
+Exit_с,text,Exit,退出
+Global Settings,text,Global Settings,全局设置
+Resolution Setting,text,Resolution Setting,分辨率设置
+Refresh Rate,text,Refresh Rate,刷新率
+Microphone,text,Microphone,麦克风
+button7,text,Cancel,取消
+label18,text,Mic to:,麦克风设为：
+label17,text,Playback to:,播放设为：
+label16,text,Mic to:,麦克风设为：
+label14,text,Mirror to:,镜像到：
+label13,text,Playback to:,播放设为：
+label20,text,When SteamVR is exited Set:,SteamVR 退出时设为：
+label19,text,When SteamVR is active Set:,SteamVR 运行时设为：
+checkBox32,text,Proximity Sensor Mutes/Unmutes Mic,距离传感器控制麦克风静音/取消静音
+label23,text,Mic:,麦克风：
+label22,text,Playback:,播放：
+button6,text,Undo,撤销
+button5,text,Fix,修正
+recenter,text,Recenter,重新居中
+label11,text,"Floor Fix: Place one controller on the floor and press ""Fix""
+Recenter Space: Place one controller on the floor and press ""Recenter""","地面修正：将一个控制器放在地上，然后按“修正”
+重新居中空间：将一个控制器放在地上，然后按“重新居中”"
+label33,text,Alarm Clock:,闹钟：
+checkBox40,text,-5 min,-5 分钟
+checkBox41,text,+5 min,+5 分钟
+checkBox42,text,-30 min,-30 分钟
+checkBox43,text,+30 min,+30 分钟
+label36,text,Timer:,计时器：
+checkBox44,text,-5 min,-5 分钟
+checkBox45,text,+5 min,+5 分钟
+checkBox46,text,-30 min,-30 分钟
+checkBox47,text,+30 min,+30 分钟
+checkBox49,text,Reset,重置
+label37,text,In-Game Clock (time notifications),游戏内时钟（报时通知）
+checkBox52,text,Show / Hide SteamVR Mirror,显示/隐藏 SteamVR 镜像窗口
+label40,text,Emulate keyboard shortcut:,模拟键盘快捷键：
+label38,text,SteamVR Desktop Overlay Scale:,SteamVR 桌面悬浮窗缩放：
+checkBox53,text,Enable Microphone Notifications (Mute/Unmute),启用麦克风通知（静音/取消静音）
+checkBox33,text,Send Error/Crash and Beta Reports on Exit (beta report is similar to error/crash report but is sent once per fpsVR update),退出时发送错误/崩溃报告和测试版报告（测试版报告与错误/崩溃报告类似，但每次 fpsVR 更新只发送一次）
+checkBox16,text,Show Graphs,显示图表
+checkBox16,tooltip,Show frametime graphs in overlay and in main window,在悬浮窗和主窗口中显示帧时间图表
+checkBox11,text,Save History,保存历史
+checkBox11,tooltip,"If enabled, all sessions are saved in the ""\Documents\fpsVR"" folder","启用后，所有会话都会保存到 ""\Documents\fpsVR"" 文件夹"
+checkBox1,text,Start with SteamVR,随 SteamVR 启动
+checkBox1,tooltip,Automatically start fpsVR when SteamVR starts,SteamVR 启动时自动启动 fpsVR
+checkBox15,text,Enable Center Marker,启用中心标记
+checkBox15,tooltip,Shows the marker of the center of the room.,显示房间中心的标记。
+checkBox21,text,Transp. background,透明背景
+vwireless,text,Show Vive Wireless Adapter Temperature,显示 Vive 无线适配器温度
+visibility,text,Visibility,可见性
+hide,text,Hide,隐藏
+with_dashboard,text,With Dashboard,随仪表盘显示
+always_show,text,Always Show,始终显示
+label9,text,Some applications may need to be restarted for settings to take effect. Some applications may ignore this settings.,部分应用可能需要重启才能使设置生效，部分应用可能会忽略此设置。
+detect_resolution1,text,Detect Resolution,检测分辨率
+detect_resolution2,text,Detect Resolution,检测分辨率
+last_detected,text,Last detected resolution,上次检测到的分辨率
+resolution_notes,text,"If there is a significant difference between the detected resolution and settings, it may be due to the fact that the application ignores SteamVR settings, or uses its own additional multiplier, or has dynamic resolution.",如果检测到的分辨率与设置差别较大，可能是因为应用忽略了 SteamVR 设置、使用了额外的倍率，或采用了动态分辨率。
+per_eye,text,per eye,每只眼
+compositor_resolution,text,"(compositor resolution, no running VR applications)",（合成器分辨率，没有运行中的 VR 应用）
+current_settings,text,Current SteamVR Resolution Settings,当前 SteamVR 分辨率设置
+Main Overlay,text,In-Game Overlay,游戏内悬浮窗
+Center Marker Settings,text,Center Marker Settings...,中心标记设置……
+Other Overlays,text,Other Overlays,其他悬浮窗
+label3,text,Position for Seated Games/Apps (If Controller is Off):,坐姿游戏/应用的位置（控制器关闭时）：
+label1,text,Position for Room-scale Games/Apps (If Controller is On):,房间规模游戏/应用的位置（控制器开启时）：
+checkBox13,text,Reset,重置
+checkBox13,tooltip,"This will start new ""session""",这将开始一个新的“会话”
+reset_stats,text,Session Stats,会话统计
+label4,text,Menu,菜单
+checkBox17,text,General,常规
+checkBox18,text,Overlays,悬浮窗
+checkBox20,text,Play Space,游玩空间
+floor_manual,text,Manual adjustment of height/floor level,手动调整高度/地面高度
+chaperone_settings,text,Chaperone Settings (for Vive/VivePro/Index),Chaperone 设置（适用于 Vive/Vive Pro/Index）
+checkBox24,text,Audio,音频
+cord,text,Cable Untangling,线缆解缠
+untangling,text,Enable Tracking of Cable Wrapping/Tangling,启用线缆缠绕追踪
+invert,text,Invert Direction of Arrows,反转箭头方向
+redtwist,text,Use Red Color for Arrows at Maximum Length,箭头达到最大长度时使用红色
+twistrate,text,Twist Rate Setting (3.0 - 20.0):,缠绕程度设置（3.0 - 20.0）：
+resettwist,text,Reset Rotation,重置旋转
+alignangle,text,Align the Starting Angle with 0/90/180/-90 degrees,将起始角度对齐到 0/90/180/-90 度
+startangle,text,Angle of start,起始角度
+hmdangle,text,Angle of rotation,旋转角度
+realangle,text,HMD angle,头显角度
+groupBox2,text,fpsVR : Settings,fpsVR：设置
+Session history: ,text,Session history and app shortcut: ,会话历史和应用快捷方式：
+Error,text,"fpsVR : Error encountered. Something went wrong....
+
+Please, help developers to fix it:
+
+Click <Yes> to send crach report by e-mail
+Click <No> to copy crach report to the clipboard and open the application forum on Steam
+Click <Cancel> to do nothing and exit
+
+","fpsVR：遇到错误，出了点问题……
+
+请帮助开发者修复：
+
+点击<是>通过电子邮件发送崩溃报告
+点击<否>将崩溃报告复制到剪贴板并打开 Steam 上的应用论坛
+点击<取消>不做任何操作并退出
+
+"
+Exit,text,Do you really want to close the app?,确定要关闭本程序吗？
+SteamVRBug1,text,SteamVR didn't return a name of the VR app. To avoid this bug: run SteamVR before the VR app.,SteamVR 没有返回 VR 应用的名称。要避免此问题：请先启动 SteamVR，再启动 VR 应用。
+ OR ,text, OR , 或 
+label32,text,Total = Global x Per-Application = ,总计 = 全局 x 单应用 = 
+Use Global Setting,text,Use Global Setting,使用全局设置
+Use Global,text,Use Global,使用全局
+Force,text,Force,强制
+Enabled,text,Enabled,已启用
+Disabled,text,Disabled,已禁用
+Show Current Time Every,text,Show Current Time Every,定时显示当前时间，间隔
+Override Global Setting and Enable,text,Override Global Setting and Enable,覆盖全局设置并启用
+Override Global Setting and Disable,text,Override Global Setting and Disable,覆盖全局设置并禁用
+Force Always-On (WARNING: will run at half framerate),text,Force Always-On,强制始终开启
+Unknown,text,Unknown,未知
+Global Resolution Setting (Manual),text,Global Resolution Setting (Manual Setting),全局分辨率设置（手动）
+Global Resolution Setting (Automatic),text,Global Resolution Setting (Depend on GPU Speed),全局分辨率设置（取决于 GPU 性能）
+label8,text,The current settings renders (supposed resolution) each eye at ,当前设置下每只眼的渲染分辨率（预计）为 
+Overlay Size,text,Overlay Size,悬浮窗大小
+Overlay Size,tooltip,In-game Overlay size,游戏内悬浮窗大小
+Do not change device,text,Do not change device,不更改设备
+Microphone: Active,text,Microphone: Active,麦克风：已开启
+Microphone: Muted,text,Microphone: Muted,麦克风：已静音
+Mute,text,Mute,静音
+On,text,On,开
+Off,text,Off,关
+No device selected,text,No device selected,未选择设备
+Not connected device,text,Not connected device,设备未连接
+label15,text,Global Resolution Setting,全局分辨率设置
+label31,text,Per-Application Settings,单应用设置
+Data Set : Full,text,Full,完整
+Data Set : Small,text,Small,精简
+Data Set : FPS,text,FPS & Time Only,仅 FPS 和时间
+Data Set : FPSOnly,text,FPS Only,仅 FPS
+Data Set : FPS & SS,text,FPS and SS/VR Headset Battery,FPS 和超采样/头显电量
+Full,text,Full,完整
+Small,text,Small,精简
+FPS,text,FPS & Time Only,仅 FPS 和时间
+FPSOnly,text,FPS Only,仅 FPS
+FPS & SS,text,FPS and SS/VR Headset Battery,FPS 和超采样/头显电量
+Attach to Bottom of the Left Controller,text,Attach to Bottom of the Left Controller,附着在左控制器底部
+(#2)Attach to Bottom of the Left Controller,text,(#2)Attach to Bottom of the Left Controller,（#2）附着在左控制器底部
+Attach to the Left Wrist,text,Attach to the Left Wrist,附着在左手腕
+Attach to Bottom of the Right Controller,text,Attach to Bottom of the Right Controller,附着在右控制器底部
+(#2)Attach to Bottom of the Right Controller,text,(#2)Attach to Bottom of the Right Controller,（#2）附着在右控制器底部
+Attach to the Right Wrist,text,Attach to the Right Wrist,附着在右手腕
+Attach Under the Left Controller,text,Attach Under the Left Controller,附着在左控制器下方
+Attach Under the Right Controller,text,Attach Under the Right Controller,附着在右控制器下方
+(#2)Attach Under the Left Controller,text,(#2)Attach Under the Left Controller,（#2）附着在左控制器下方
+(#2)Attach Under the Right Controller,text,(#2)Attach Under the Right Controller,（#2）附着在右控制器下方
+Attach to HMD,text,Attach to HMD,附着在头显上
+Follow to the Bottom Position,text,Follow to the Bottom Position,跟随至下方
+Follow to the Left,text,Follow to the Left,跟随至左侧
+Follow to the Right,text,Follow to the Right,跟随至右侧
+Bottom (SteamVR Seated Position),text,Bottom (SteamVR Seated Position),下方（SteamVR 坐姿位置）
+Left (SteamVR Seated Position),text,Left (SteamVR Seated Position),左侧（SteamVR 坐姿位置）
+Right (SteamVR Seated Position),text,Right (SteamVR Seated Position),右侧（SteamVR 坐姿位置）
+logged errors(,text,logged errors(,条已记录的错误（
+Subfolder 'error_reports' contains ,text,Subfolder 'error_reports' contains ,子文件夹 'error_reports' 中有 
+report(s),text,new report(s),份新报告
+Hide Overlay,text,Hide Overlay,隐藏悬浮窗
+checkBox36,text,Clock,时钟
+checkBox48,text,Utilities,实用工具
+Left controller - not found,text,Left controller - not found,未找到左控制器
+Right controller - not found,text,Right controller - not found,未找到右控制器
+Controller - tracking problems,text,"Controller tracking issue, try again",控制器追踪异常，请重试
+No controllers found,text,No controllers found,未找到控制器
+Fixed!,text,Fixed!,已修正！
+Fixing...,text,Fixing...,正在修正……
+Done,text,Done,完成
+label10,text,Motion Smoothing Setting for Current App:,当前应用的运动平滑设置：
+globalsmoothing,text,Global Motion Smoothing Setting:,全局运动平滑设置：
+smoothing_desc,text,Synthesizes new frames to maintain a good experience when running application cannot keep up,当运行中的应用跟不上时，合成新帧以保持良好体验
+smoothing_desc2,text,"Synthesizes new frames to maintain a good experience when running application cannot keep up. <br><br>This setting will only work if certain changes are made to the configuration file of the Windows Mixed Reality for SteamVR application. Instructions are in the configuration file, usually located in the Steam library ...\Steam\steamapps\common\MixedRealityVRDriver\resources\settings\ default.vrsettings",当运行中的应用跟不上时，合成新帧以保持良好体验。<br><br>此设置只有在修改了 Windows Mixed Reality for SteamVR 应用的配置文件后才会生效。修改说明在配置文件中，该文件通常位于 Steam 库 ...\Steam\steamapps\common\MixedRealityVRDriver\resources\settings\ default.vrsettings
+msmoothing,text,Motion Smoothing Settings,运动平滑设置
+checkBox22,text,Motion Smoothing,运动平滑
+checkBox22,tooltip,Motion Smoothing setting for application,应用的运动平滑设置
+Advanced,text,Advanced,高级
+Restart,text,Restart/Exit,重启/退出
+Back,text,Back,返回
+toggle_a_mode,text,Toggle Async Mode (Globally),切换异步模式（全局）
+asyncmode,text,Async reprojection mode,异步重投影模式
+asyncstatus,text,Async compositor and reprojection,异步合成与重投影
+restartvr,text,Restart SteamVR,重启 SteamVR
+Hz,text,Hz,Hz
+colorgain,text,Сolor and Brightness,颜色和亮度
+red,text,Red Color,红色
+green,text,Green Color,绿色
+blue,text,Blue Color,蓝色
+resettodefault,text,Restore Defaults,恢复默认
+shoosedataset,text,Choose an overlay option from the list,从列表中选择一种悬浮窗样式
+selectCOn,text,Select a Position for In-Game Overlay (If Controller is Turned ON),选择游戏内悬浮窗的位置（控制器开启时）
+selectCOff,text,Select a Position for In-Game Overlay (If Controller is Turned OFF),选择游戏内悬浮窗的位置（控制器关闭时）
+global_custom,text,Custom Resolution,自定义分辨率
+Custom,text,Custom,自定义
+Auto,text,Auto,自动
+disable_utilities,text,Desktop Utilities (Under the SteamVR Desktop Overlay),桌面实用工具（位于 SteamVR 桌面悬浮窗下方）
+disable_red,text,Disable The Usage of Red Color for FPS Counters,禁止 FPS 计数器使用红色
+amode_app,text,"Setting for the Current App:<br><span style=""font-size: 24px; color: DarkGray"">WARNING: SteamVR will apply the setting each time the current application is launched</span>","当前应用的设置：<br><span style=""font-size: 24px; color: DarkGray"">警告：每次启动当前应用时 SteamVR 都会应用此设置</span>"
+amode_default,text,Use Global Setting (Default and Recommended),使用全局设置（默认，推荐）
+amode_over,text,Override Global and Disable Async Reprojection Mode,覆盖全局设置并禁用异步重投影模式
+Default_audio,text,Default,默认
+VR Headset,text,VR Headset,VR 头显
+audio_steamvr,text,SteamVR Audio Settings,SteamVR 音频设置
+audio_out,text,Audio Output Device,音频输出设备
+audio_in,text,Audio Input Device,音频输入设备
+audio_mir,text,Mirror Audio to Device,音频镜像到设备
+Disable,text,Disable,禁用
+exitfpsvr,text,Exit fpsVR,退出 fpsVR
+more...,text,More Settings...,更多设置……
+twistsize,text,Size of the Marker,标记大小
+twistopacity,text,Marker Opacity,标记不透明度
+followplayer,text,Marker Follows the Player,标记跟随玩家
+followplayerwarn,text,"<span style=""font-size: 24px; color: DarkGray"">If enabled, the marker will not be the center of the playing area</span>","<span style=""font-size: 24px; color: DarkGray"">启用后，标记将不再位于游玩区域中心</span>"
+customlogotext,text,"To replace the marker with your own image: create a ""customlogo.png"" or ""customlogo.bmp"" file in the fpsVR folder (RGBA, 512x512 pixels)","要用你自己的图片替换标记：在 fpsVR 文件夹中创建 ""customlogo.png"" 或 ""customlogo.bmp"" 文件（RGBA，512x512 像素）"
+forcebounds,text,"Show/Hide Bounds (Force bounds, for testing purposes)",显示/隐藏边界（强制显示边界，用于测试）
+playspace,text,Play Space,游玩空间
+groundperimeter,text,Ground Perimeter,地面边界
+steamvrcenter,text,Center Marker (SteamVR),中心标记（SteamVR）
+disablechap,text,Disable Chaperone (by setting fade distance to 0.0m),禁用 Chaperone（将淡出距离设为 0.0 米）
+fadedistance,text,Fade Distance,淡出距离
+opacity,text,Opacity,不透明度
+rotateorient,text,Rotate Orientation,旋转朝向
+By Headset/Restore,text,By Headset/Restore,按头显方向/恢复
+Apply,text,Apply,应用
+Restore,text,Restore,恢复
+commonsettings,text,Common,通用
+ipdoffset,text,IPD Offset,瞳距偏移
+ipd_offset_decr,text,"<br><br>SteamVR applies IPD Offset when the headset IPD setting is changed. If your headset does not have this setting, then the IPD Offset will apply when you restart SteamVR.",<br><br>SteamVR 会在头显瞳距设置改变时应用瞳距偏移。如果你的头显没有这项设置，瞳距偏移将在重启 SteamVR 后生效。
+proximitywarn,text,Proximity Warning Settings...,靠近警告设置……
+awarn,text,Audio Warning,声音警告
+aloop,text,Loop Audio,循环播放声音
+adistance,text,Activation Distance,触发距离
+dashwarn,text,Open Dashboard,打开仪表盘
+thispage,text,Show this page (otherwise last),显示此页面（否则显示上次页面）
+showhide_overlay_shortcut,text,Enable Keyboard Shortcut to Hide Overlay,启用隐藏悬浮窗的键盘快捷键
+screenshot_shortcut,text,Enable keyboard shortcut to take screenshots,启用截图的键盘快捷键
+logging,text,Frames data logging,帧数据记录
+frames,text,frames,帧
+Mbyte,text,Mbyte,MB
+logging_status,text,Logging Status,记录状态
+logging_started,text,Logging is active,正在记录
+logging_stopped,text,Stopped,已停止
+filename,text,File Name,文件名
+logging_shortcut,text,Enable keyboard shortcut to start/stop logging,启用开始/停止记录的键盘快捷键
+logging_startstop,text,Start/Stop Logging,开始/停止记录
+screenshots,text,Screenshots,截图
+take_screenshot,text,Take a Screenshot (dashboard will be closed),截图（会关闭仪表盘）
+take_scrnshot_fpsVR,text,Take a Screenshot of the Overlay (in a condition before the dashboard opened),截取悬浮窗（打开仪表盘之前的状态）
+screenshot_note,text,Note: VR application/game must be running for these functions to work,注意：VR 应用/游戏必须正在运行，这些功能才能使用
+presscombo,text,Press the key combination...,请按下组合键……
+kshortcut,text,Keyboard Shortcut: ,键盘快捷键：
+pressedit,text,"Press ""On"" and ""Edit"" to define key combination...",按“开”再按“编辑”来设置组合键……
+s_h_overlay_shortcut_learn,text,Edit,编辑
+s_h_chaperone_shortcut_learn,text,Edit,编辑
+DisChapOnOff,text,Enable keyboard shortcut to Enable/Disable Chaperone,启用开关 Chaperone 的键盘快捷键
+chapwarn,text,Switch Chaperone to Beginner Mode,将 Chaperone 切换到新手模式
+please_wait,text,Please Wait...,请稍候……
+lowbatterywarn,text,Show Low Battery Warnings at 25% and 15%,电量为 25% 和 15% 时显示低电量警告
+profile,text,Profile,配置
+global,text,Global,全局
+perapp,text,Application,应用
+noapp,text,No running application,没有运行中的应用
+gain,text,Brightness,亮度
+gainsupport,text,Not Supported,不支持
+Monit.,text,Monit.,监控
+GPU Monitoring: Off,text,GPU Monitoring: Off,GPU 监控：关
+(PC),text,(PC),（PC）
+Session Statistics,text,Session Statistics,会话统计
+More in dashboard overlay,text,More: fpsVR dashboard overlay->General->History Viewer,更多：fpsVR 仪表盘悬浮窗 -> 常规 -> 历史查看器
+Less,text,Less,更少
+Median,text,Median,中位数
+Duration:,text,Duration:,时长：
+Headset Battery:,text,Headset Battery:,头显电量：
+Controllers:,text,Controllers:,控制器：
+H: ,text,H: ,H: 
+H ,text,H ,H 
+ResTotal,text,Total res. setting,总分辨率设置
+ResGlobal,text,Global res. setting,全局分辨率设置
+ResPerApp,text,Per-App res. setting,单应用分辨率设置
+ResPixels,text,Res. by settings,设置分辨率
+GPU Usage:,text,GPU Usage:,GPU 占用：
+CPU Usage:,text,CPU Usage:,CPU 占用：
+App: ,text,,
+Average FPS:,text,Average FPS:,平均 FPS：
+GPU Frametime:,text,GPU Frametime:,GPU 帧时间：
+VRAM:,text,VRAM:,显存：
+CPU Frametime:,text,CPU Frametime:,CPU 帧时间：
+RAM:,text,RAM:,内存：
+CPUmax/thread:,text,CPUmax/thread(core):,CPU 最忙线程(核心)：
+2CPUmax/thread:,text,CPUmax/thread:,CPU 最忙线程：
+Reprojection Ratio:,text,Reprojection Ratio:,重投影比例：
+R2,text,Reprojection Ratio:,重投影比例：
+Dropped Frames:,text,Dropped Frames:,丢帧数：
+D2,text,Dropped Frames:,丢帧数：
+LC Battery Charge:,text,L.Controller:,左控制器：
+RC Battery Charge:,text,R.Controller:,右控制器：
+GPU Temp & Usage:,text,GPU Temp & Usage:,GPU 温度与占用：
+ms,text,ms,ms
+ ms,text, ms, ms
+GB,text,GB,GB
+CPU Temp & Usage:,text,CPU Temp & Usage:,CPU 温度与占用：
+Other batteries: ,text,Other batteries: ,其他电池：
+ min,text, min, 分钟
+min,text,min,分钟
+ minutes,text, minutes, 分钟
+m,text,m,m
+CPU T&U:,text,CPU:,CPU:
+GPU T&U:,text,GPU:,GPU:
+Average:,text,Average:,平均：
+Average,text,Average,平均
+LC ,text,LC ,LC 
+RC ,text,RC ,RC 
+L ,text,L ,L 
+R ,text,R ,R 
+help.txt,text,help_e.txt,help_e.txt
+Help,text,Help,帮助
+Open1,text,Open,打开
+Exit1,text,Exit,退出
+Timer: ,text,Timer: ,计时器：
+The alarm went off,text,The alarm went off,闹钟响了
+Alarm: ,text,Alarm: ,闹钟：
+Mic: Active,text,Mic: Active,麦克风：开
+Mic: Muted,text,Mic: Muted,麦克风：静音
+WrongSteamVR,text,"You are using an unsupported version of SteamVR.
+Please switch to older version of fpsVR:
+1.Right click fpsVR in the list in your Games Library
+2.Go to Properties
+3.Go to Betas tab","你正在使用不受支持的 SteamVR 版本。
+请切换到旧版 fpsVR：
+1. 在游戏库列表中右键点击 fpsVR
+2. 打开“属性”
+3. 进入“测试版”选项卡"
+View Error/Crash Reports,text,View Error/Crash Reports,查看错误/崩溃报告
+StatsDesktopMode,text,Stats (Desktop Mode),统计（桌面模式）
+SettingsDesktopMode,text,Settings (Desktop Mode),设置（桌面模式）
+Settings,text,Settings,设置
+fpsvrutils,text,fpsVR: Desktop Utilities,fpsVR：桌面实用工具
+baloon,text,fpsVR minimized to Windows Tray,fpsVR 已最小化到 Windows 托盘
+DoubleRun,text,"Two instances of fpsVR detected. Please, remove files one of them:",检测到两个 fpsVR 实例，请删除其中一个的文件：
+HMDnotFound,text,VR HMD not found,未找到 VR 头显
+show_knockknock,text,"Open SteamVR ""Knock Knock"" Window",打开 SteamVR“敲门”窗口
+IPD,text,Interpupillary distance,瞳距
+mm,text,mm,mm
+PerfCountersError,text,"fpsVR detected issue with the system performance counters settings. Do you want to fpsVR try to restore this settings?
+
+Yes - fpsVR will launch a fix tool
+No - Do nothing and do not ask again
+Cancel - Skip and continue, fpsVR will pop up this window next time","fpsVR 检测到系统性能计数器设置有问题。是否让 fpsVR 尝试恢复这些设置？
+
+是 - fpsVR 将启动修复工具
+否 - 不做任何操作，且不再询问
+取消 - 跳过并继续，下次 fpsVR 还会弹出此窗口"
+lowbattery,text,Low Battery,低电量
